@@ -1,0 +1,111 @@
+
+Part 2.B.)
+
+1.)
+
+CUSTOMER	ITEM	SUPPLIEDQTY	DEMANDQTY
+customer1	item1	20		65
+customer1	item3	0		98
+customer1	item5	197		197
+customer2	item3	14		14
+customer2	item7	98		123
+customer3	item2	0		564
+customer4	item6	12		12
+customer5	item10	0		5
+customer5	item9	0		877
+customer6	item4	121		121
+
+10 rows selected.
+
+2.)
+
+ITEM	TOTALMANUFQTY
+item2	50
+item4	20
+item3	14
+item7	98
+item1	80
+
+3.)
+
+MANUF		MATITEM	REQUIREDQTY	SHIPPEDQTY
+manufacturer2	item6	60		100
+manufacturer1	item6	20		25
+manufacturer1	item9	392		25
+
+4.)
+
+ITEM	MANUF		SHIPPEDOUTQTY	ORDEREDQTY
+item1	manufacturer1	20		20
+item7	manufacturer1	98		98
+item3	manufacturer1	14		14
+item2	manufacturer1	0		50
+item4	manufacturer3	0		20
+item1	manufacturer2	0		60
+
+6 rows selected.
+
+5.)
+
+ITEM	SUPPLIER	SUPPLIEDQTY	SHIPPEDQTY
+item10	supplier1	100		0
+item6	supplier1	20		125
+item9	supplier1	877		25
+item6	supplier2	60		12
+
+6.)
+
+SUPPLIER	COST
+supplier1	89000
+supplier2	300
+
+7.)
+
+MANUF		COST
+manufacturer1	3747
+manufacturer2	6134
+manufacturer3	0
+
+8.)
+
+SHIPPER		COST
+shipper1	118580
+shipper2	2282360
+
+9.)
+
+SUPPLYCOST	MANUFCOST	SHIPPINGCOST
+89300		9881		2400940
+
+Part 2.C.)
+
+1.)
+
+CUSTOMER
+customer3
+customer5
+customer2
+customer1
+
+2.)
+
+SUPPLIER
+supplier2
+supplier1
+
+3.)
+
+MANUF
+manufacturer1
+
+4.)
+
+MANUF
+manufacturer3
+manufacturer2
+manufacturer1
+
+
+
+
+
